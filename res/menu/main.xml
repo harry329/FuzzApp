@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.fuzzapptest.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+  <item
+        android:id="@+id/all"
+        android:orderInCategory="100"
+        android:title="@string/all"
+        app:showAsAction="always"/>"
+        
+  	<item
+        android:id="@+id/text"
+        android:orderInCategory="100"
+        android:title="@string/text"
+        app:showAsAction="always"/>
+  	  <item
+        android:id="@+id/images"
+        android:orderInCategory="100"
+        android:title="@string/images"
+        app:showAsAction="always"/>
+</menu>
